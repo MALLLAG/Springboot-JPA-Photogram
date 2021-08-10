@@ -1,8 +1,3 @@
-# 포토그램 - 인스타그램 클론 코딩
-
-### STS 툴에 세팅하기 - 플러그인 설정
-- https://blog.naver.com/getinthere/222322821611
-
 ### 의존성
 
 - Sring Boot DevTools
@@ -61,9 +56,9 @@ spring:
       
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
-    url: jdbc:mariadb://localhost:3306/costa?serverTimezone=Asia/Seoul
-    username: costa
-    password: costa1234
+    url: jdbc:mariadb://localhost:3306/photogram?serverTimezone=Asia/Seoul
+    username: cos
+    password: cos1234
     
   jpa:
     open-in-view: true
